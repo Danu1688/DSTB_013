@@ -12,6 +12,19 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
+- name: Laviana2Crismon_LiveDO_1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: e08a0cdb-a474-4c34-b264-210315021a8a
+  udp: true
+  sni: danu529.foryou-ssh.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: danu529.foryou-ssh.my.id
 - name: TrojanWsSvr-Live_1
   type: trojan
   server: circles.asia
