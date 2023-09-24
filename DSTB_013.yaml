@@ -1,4 +1,17 @@
 proxies:
+- name: CrismonNusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 2d4468cc-ac3c-4fe3-833c-753d2c692f3b
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: CrismonLaviana_LiveDO_1
   type: trojan
   server: circles.asia
